@@ -1,0 +1,7 @@
+.coluna{
+    float: left;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 10px;
+}
