@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+header{
+    background-color: rgb(66, 66, 66);
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 7px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 7px;
+    color: whitesmoke;
+}
