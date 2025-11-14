@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+.prophecy{
+    text-align: justify;
+    margin: 25px;
+}
+
+.prophecy h2{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 50px;
+    width: 300px;
+    height: 390px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.kris-gif{
+    background: linear-gradient(60deg, #8df2ff, #ff008c);
+}
+.susie-gif{
+    background: linear-gradient(60deg, #7770b3, #dd11c2);
+}
+.ralsei-gif{
+    background: linear-gradient(60deg, #ff40a9, #83f0a7);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.4s;
+}
