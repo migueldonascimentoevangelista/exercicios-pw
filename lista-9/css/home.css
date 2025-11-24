@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background: #f24a1d;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
