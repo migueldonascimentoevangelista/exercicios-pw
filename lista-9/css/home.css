@@ -1,17 +1,146 @@
 header{
-    display: flex;
     width: 1140px;
     margin: auto;
-    padding: 10px 20px;
-    justify-content: space-between;
-    background: #f24a1d;
+    padding: 17px; 
+    background-color: #f24a1d;
 }
 
-ul{
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
     list-style: none;
 }
 
-a {
+header a{
     color: white;
     text-decoration: none;
+}
+
+.menu-esquerdo ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+    
+.menu-direito ul{
+    display: flex;
+    gap: 20px;
+}    
+
+main {
+    width: 1140px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 800px 320px;
+    gap: 20px; 
+}
+
+/* MUDAR E ADICIONAR RESPONSIVIDADE SMARTPHONE */
+
+section.produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+    background-color: white;
+}
+
+.produto {
+    padding: 10px;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin: 10px 0 5px;
+}
+
+.produto p {
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.produto button {
+    border: none;
+    margin-top: 10px;
+    padding: 12px;
+    color: white;
+    background-color: #ff3b00;
+}
+
+.tutoriais {
+    height: 560px;
+    padding: 0 0px 10px 0px;
+    background-color: transparent;
+}
+
+.tutoriais h2 {
+    background-color: white;
+    height: 40px;
+    padding: 8px 8px;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.tutorial {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 0 0 10px;
+    margin-bottom: 2px;
+    height: 125px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+}
+
+.tutorial:last-child {
+    margin-bottom: 0;
+}
+
+.tutorial img {
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+
+}
+
+.publicidade {
+    margin-top: 40px;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.publicidade h2 {
+    background-color: white;
+    padding: 8px 8px;
+    height: 40px;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+    margin: transparent;
+}
+
+.publicidade img {
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 10px;
+
+    margin-bottom: 0px;
+    /* espaço entre as imagens, agora BRANCO */
+
+}
+
+.publicidade img:last-child {
+    margin-bottom: 0;
 }
