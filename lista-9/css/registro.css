@@ -1,0 +1,34 @@
+header{
+    width: 1140px;
+    margin: auto;
+    padding: 17px; 
+    background-color: #f24a1d;
+    position: sticky;
+    top: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-esquerdo ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+    
+.menu-direito ul{
+    display: flex;
+    gap: 20px;
+}
