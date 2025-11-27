@@ -34,17 +34,36 @@ header a{
 }
 
 main{
-    
     width: 1140px;
     margin: auto;
-    text-align: center;
     margin-top: 70px;
 }
 
-form{
+main h1{
+    text-align: center;
+}
+
+main form{
+    width: 500px;
+    margin: auto;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
+
 }
 
+
+main form input{
+    height: 35px;
+    width: 500px;
+}
+
+.remember-me{
+    display: flex;
+}
+
+.remember-me input{
+    height: auto;
+    width: auto;
+}
