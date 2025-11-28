@@ -61,9 +61,23 @@ main form input{
 
 .remember-me{
     display: flex;
+    gap: 10px;
+    margin-left: 360px;
 }
 
 .remember-me input{
     height: auto;
     width: auto;
+    cursor: pointer;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(32, 148, 202);
+    cursor: pointer;
 }
