@@ -44,13 +44,13 @@
             <form action="">
                 
                 <label for="">Nome</label>
-                <input type="text" name="" id="" placeholder="Seu nome aqui">
+                <input class="inserir" type="text" name="" id="" placeholder="Seu nome aqui">
                 
                 <label for="">Email</label>
-                <input type="email" name="" id="" placeholder="email@email.com">
+                <input class="inserir" type="email" name="" id="" placeholder="email@email.com">
                 
                 <label for="">Senha</label>
-                <input type="password" name="" id="" placeholder="senha">
+                <input class="inserir" type="password" name="" id="" placeholder="senha">
                 
                 <label for="pais"><strong>País de nascimento:</strong></label>
                 <select id="pais" class="select-pais">
@@ -72,18 +72,44 @@
                 </select>
 
                 <label for=""><strong>Genero</strong></label>
-                <input type="radio" id="masculino" name="genero" value="Masculino">
-                <label for="masculino">Masculino</label>
+                
+                <div class="alternativas>
+                    <input type="radio" id="masculino" name="genero" value="Masculino">
+                    <label for="masculino">Masculino</label>
 
-                <input type="radio" id="feminino" name="genero" value="Feminino">
-                <label for="feminino">Feminino</label>
+                    <input type="radio" id="feminino" name="genero" value="Feminino">
+                    <label for="feminino">Feminino</label>
 
-                <input type="radio" id="indeterminado" name="genero" value="Prefiro não dizer">
-                <label for="indeterminado">Prefiro não dizer</label>
-
+                    <input type="radio" id="indeterminado" name="genero" value="Prefiro não dizer">
+                    <label for="indeterminado">Prefiro não dizer</label>
+                </div>
+                
                 <label for=""><strong>Hobbies</strong></label>
-                <input type="radio" name="" id="">
+                
+                <div class="alternativas">
+                    <input type="radio" name="" id="">
+                    <label for="">Guitarra</label>
 
+                    <input type="radio" name="" id="">
+                    <label for="">Futebol</label>
+                    
+                    <input type="radio" name="" id="">
+                    <label for="">Tenis</label>
+                
+                    <input type="radio" name="" id="">
+                    <label for="">Progamador</label>
+                </div>
+
+                <label for=""><strong>Comentários</strong></label>
+                <textarea name="" id=""></textarea>
+
+                <input type="checkbox" name="" id="">
+                <label for="">Aceito os termos e condições</label>
+
+                <input type="submit" value="Registrar"><input type="button" value="Cancelar">
+
+                <button>Registrar</button> <button>Cancelar</button>
+                
             </form>
         </div>
 

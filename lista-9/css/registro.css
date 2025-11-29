@@ -33,3 +33,32 @@ header a{
     gap: 20px;
 }
 
+main{
+    width: 1140px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+main h1{
+    text-align: center;
+}
+
+main form{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.inserir{
+    height: 35px;
+    width: 500px;
+}
+
+.alternativas{
+    display: flex;
+    flex-direction:row;
+}
