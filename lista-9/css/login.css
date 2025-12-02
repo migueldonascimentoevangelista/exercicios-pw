@@ -62,7 +62,7 @@ main form input{
 .remember-me{
     display: flex;
     gap: 10px;
-    margin-left: 360px;
+    margin-left: 350px;
 }
 
 .remember-me input{
