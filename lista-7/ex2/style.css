@@ -46,6 +46,14 @@ header{
     text-align: center;
 }
 
+.card h3{
+    margin-top: 20px;
+}
+
+.card h2{
+    margin-top: 10px;
+}
+
 img{
     margin-top: 15px;
     width: 250px;
