@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: 600px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);;
+    background-color: rgb(66, 52, 44);
+    gap: 15px;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.visor{
+    grid-column: 1 / span 4;
+    height: 80px;
+    width: 350px;
+    background-color: rgb(168, 230, 0);
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+main button{
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(100, 90, 85);
+    font-size: 45px;
+    color: white;
+}
+
+.operadores-matematicos{
+    background-color: rgb(241, 167, 29);
+}
+
+#igual{
+    background-color: rgb(11, 221, 98);
+}
